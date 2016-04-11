@@ -10,9 +10,9 @@ $(function(){
 		var index=$(this).data('index');
 		this.asc = !this.asc
 		if (!this.asc){
-			var rows = table.find('tr:gt(0)').toArray().sort(compare_asc($(this).index()));
+			var rows = table.find('tr:gt(0)').toArray().sort(compare_asc(index));
 		}else{
-			var rows = table.find('tr:gt(0)').toArray().sort(compare_desc($(this).index()));
+			var rows = table.find('tr:gt(0)').toArray().sort(compare_desc(index));
 		}
 		for (var i = 0; i < rows.length; i++){table.append(rows[i])}
 	})
