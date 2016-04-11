@@ -1,0 +1,15 @@
+	th {
+		padding: 12px;
+		border: 1px solid #B3AEAE;
+	}
+	tr{
+		border: 1px solid #B3AEAE;
+	}
+	td {
+		text-align:center;
+		padding: 10px;
+		border: 1px solid #B3AEAE;
+	}
+	table {
+		border-collapse: collapse;
+	}
